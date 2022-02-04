@@ -8,13 +8,13 @@ body {
     font-size: 15px;
 }
 .box {
-    margin: 100px auto;
+    margin: 150px auto;
     width: 70%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(1fr, 500px));
 }
-.box div {
+.box > div {
     height: 500px;
     padding: 20px;
     display: grid;
@@ -33,13 +33,13 @@ body {
     background-color: hsl(179, 100%, 13%);
     border-radius: 0 5px 5px 0;
 }
-header {
+.head {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 30px);
     justify-self: start;
     transform: translateX(30px);
 }
-header h1 {
+.head h1 {
     grid-row: 3 / 4;
     font-family: 'Big Shoulders Display', cursive;
     font-size: 40px;
