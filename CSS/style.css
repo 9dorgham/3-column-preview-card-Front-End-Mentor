@@ -8,10 +8,10 @@ body {
     font-size: 15px;
 }
 .box {
-    margin: 150px auto;
-    width: 70%;
+    margin: 200px auto;
+    width: 60%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(1fr, 500px));
 }
 .box > div {
